@@ -1,0 +1,61 @@
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    background-image: url('/Tic\ Tac\ Toe\ Light.jpeg');
+    color: rgb(0, 0, 0); 
+    background-repeat: repeat; 
+    background-size: auto; 
+    background-position: center;
+}
+
+.game-container {
+    text-align: center;
+}
+
+.board {
+    display: grid;
+    grid-template-columns: repeat(3, 100px);
+    grid-gap: 5px;
+    background-color: rgb(136, 0, 255);
+}
+
+.cell {
+    width: 100px;
+    height: 100px;
+    border: 2px solid #333;
+    font-size: 2em;
+    display: flex;
+    background-color: rgb(166, 134, 209);
+    align-items: center;
+    justify-content: center;
+    cursor: pointer;
+}
+
+.status {
+    margin-top: 20px;
+    font-size: 1.5em;
+    color: rgb(0, 0, 0);
+}
+
+.reset-button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    font-size: 1em;
+    cursor: pointer;
+    background-color: #0d2c87; 
+    color: rgb(5, 199, 247); 
+}
+
+
+.cell {
+    transition: background-color 0.3s ease;
+
+}
+
+.cell:hover {
+    background-color: #d4b7f3;
+}
