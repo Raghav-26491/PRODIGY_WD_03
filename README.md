@@ -1,4 +1,4 @@
-## PRODIGY_WD_01
+# PRODIGY_WD_01
 # Tic Tac Toe Game
 
 This project is a web-based Tic Tac Toe game developed as part of the Prodigy InfoTech Web Development Task 3. It allows players to enjoy the classic Tic Tac Toe game against a friend. The game features a simple and responsive design, clear game status display, and a reset button to start a new game.
